@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+void fool (int i, int n){
+    if(i<n) return ;
+    cout<<i<<endl;
+    fool(i-1,n);
+
+}
+
+
+int main(){
+
+    int n;
+    //cin>>n;
+     fool(4,4);
+
+    return 0;
+}
