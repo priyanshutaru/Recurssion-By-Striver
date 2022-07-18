@@ -1,0 +1,15 @@
+#include<bits/stdc++.h>
+using namespace std;
+void fool (int i, int n){
+    if(i<1) return ;
+    fool(i+1,n);
+    cout<<i<<endl;
+ }
+int main(){
+
+    int n;
+    //cin>>n;
+     fool(4,4);
+
+    return 0;
+}
