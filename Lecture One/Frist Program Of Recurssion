@@ -1,0 +1,18 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int cnt=0;
+void result(){
+    if(cnt==3) return;
+    cout<<cnt<<endl;
+    cnt++;
+    result();
+}
+
+
+int main(){
+    cout<<result<<endl;
+
+    return 0;
+
+}
